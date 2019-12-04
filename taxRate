@@ -1,0 +1,46 @@
+/* This program will calculate the tax rate of three items
+		Written BY: Ashley McCray
+		Date: 2/3/2017
+		*/
+		
+		#include <stdio.h>
+		int main (void)
+		#define SALES_TAX_RATE 0.073
+		
+		{
+			//Local Declarations
+			
+			float x;
+			float y;
+			float a;
+			double sum;
+			double tax;
+			double total;
+			
+			
+			
+			//Statements
+			printf("Please enter the amount of each item purchased below. \n\n");
+			
+			printf ("First item:\n");
+			scanf ("%f", &x);
+			printf("Second item:\n");
+			scanf ("%f", &y);
+			printf ("Third item:\n");
+			scanf ("%f", &a);
+			
+			sum = x + y + a;
+			tax = sum * SALES_TAX_RATE;
+			total = sum + tax;
+			
+			printf ("The total before taxes is: %8.2f \n", sum);
+			
+			printf ("The total amount of tax on my items: %8.2f\n ", tax);
+			
+			printf("Total amount owed is: %8.2f", total);
+			
+			
+			
+			return 0;
+		}  //main
+		
