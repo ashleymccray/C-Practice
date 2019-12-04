@@ -1,0 +1,29 @@
+/* This program will display the sum and average of three integers
+		Written By: Ashley McCray
+		Date: 2/3/2017
+		*/
+		
+		#include <stdio.h>
+		int main (void)
+		{
+			//Local Declarations
+			int x= 5;
+			int y= 2;
+			int a= 8;
+			int sum;
+			float average;
+			
+			//Statements
+			printf ("x= 5\t \t y=2\t\t  a= 8\t\n");
+			printf("The sum of x + y + a = ");
+			printf("%d",x + y + a, &sum);
+			printf("\nThe average of x, y, and a =  ");
+			printf("%d",(x + y + a) / 3);
+		
+			
+		
+		
+			
+	return 0;
+		}
+		//main
